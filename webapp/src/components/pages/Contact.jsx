@@ -5,10 +5,27 @@ function Contact() {
     <div>
       <h1>CONTACT</h1>
       <ul>
-        <li>Email</li>
-        <li>GitHub</li>
-        <li>LinkedIn</li>
-        <li>CV</li>
+        <li>
+          <a href="mailto:annabrisland@gmail.com">Email</a>
+        </li>
+        <li>
+          <a href="https://github.com/annabrisland" target="_blank">
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/anna-brisland-2b5734232/"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="" target="_blank">
+            CV
+          </a>
+        </li>
       </ul>
       <section>
         <h3>Got a question? Fire away</h3>
