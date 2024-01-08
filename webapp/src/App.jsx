@@ -1,11 +1,11 @@
 import React from "react";
-import NavBar from "./components/NavBar";
+import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
 
   return (
-    // Render Navbar component
-    <NavBar />
+    // Render Portfolio
+    <PortfolioContainer />
   )
 }
 
