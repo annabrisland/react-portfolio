@@ -1,6 +1,9 @@
 import React from "react";
 
 function Home() {
+  // Change background colour for home page
+  document.body.style.backgroundColor = "#4901ff";
+
   return (
     <div className="name-container">
       <h1 className="name">ANNA</h1>

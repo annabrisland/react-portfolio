@@ -1,9 +1,12 @@
 import React from "react";
 
 function Contact() {
+  // Change background colour for home page
+  document.body.style.backgroundColor = "white";
+
   return (
     <div>
-      <h1>CONTACT</h1>
+      <h1 className="title">CONTACT</h1>
       <ul>
         <li>
           <a href="mailto:annabrisland@gmail.com">Email</a>

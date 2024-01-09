@@ -6,9 +6,9 @@ function Card(props) {
 
     return (
         <div className="card">
-            <img className="proj-img" src={project.img} style={{width:"800px"}}></img>
+            <img className="proj-img" src={project.img}></img>
             <div className="info">
-                <h3 className="title">{project.title}</h3>
+                <h3 className="project-title">{project.title}</h3>
                 <div className="description">{project.desc}</div>
                 <div className="project-links">
                     <a className="github-btn" href={project.github} target="_blank">GitHub</a>

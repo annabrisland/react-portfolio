@@ -60,15 +60,20 @@ function Projects() {
     },
   ];
 
+  // Change background colour for home page
+  document.body.style.backgroundColor = "white";
+
   return (
     <div>
-      <h1>PROJECTS</h1>
-      <Card project={project[0]} />
-      <Card project={project[1]} />
-      <Card project={project[2]} />
-      <Card project={project[3]} />
-      <Card project={project[4]} />
-      <Card project={project[5]} />
+      <h1 className="title">PROJECTS</h1>
+      <div className="project-container">
+        <Card project={project[0]} />
+        <Card project={project[1]} />
+        <Card project={project[2]} />
+        <Card project={project[3]} />
+        <Card project={project[4]} />
+        <Card project={project[5]} />
+      </div>
     </div>
   );
 }
