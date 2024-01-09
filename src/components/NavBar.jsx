@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <ul className="nav-items">
       <li className="nav-item">
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/react-portfolio">Home</NavLink>
       </li>
       <li className="nav-item">
         <NavLink to="/projects">Projects</NavLink>
