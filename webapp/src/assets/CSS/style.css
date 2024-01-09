@@ -6,9 +6,6 @@
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 15px 15px 10px 10px;
-  background-color: #4901ff;
-  border-radius: 5px;
 }
 
 li a {
@@ -26,6 +23,9 @@ li a:hover {
 
 .nav-items {
   text-align: end;
+  padding: 15px 15px 10px 10px;
+  background-color: #4901ff;
+  border-radius: 5px;
 }
 
 .nav-item {
@@ -78,6 +78,11 @@ li a:hover {
     margin-right: 30px;
 }
 
+.github-btn:hover {
+    color: #4901ff;
+    border-bottom: #4901ff 2px solid;
+}
+
 .view-btn {
     text-decoration: none;
     background-color: #4901ff;
@@ -85,3 +90,57 @@ li a:hover {
     padding: 10px 30px;
     color: white;
 }
+
+.view-btn:hover {
+    background-color: black;
+}
+
+.contact-items {
+    padding: 0;
+    margin: 0 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item {
+    color: black;
+    padding: 5px;
+    border-bottom: black 2px solid;
+}
+
+.contact-item:hover {
+    color: #4901ff;
+    border-bottom: #4901ff 2px solid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    background-color: rgb(237, 237, 237);
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.contact-form {
+    margin: 100px 30%;
+}
+
+.submit-btn {
+    background-color: #4901ff;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: black;
+}
+
+#question {
+    height: 250px;
+    vertical-align: top;
+}
+

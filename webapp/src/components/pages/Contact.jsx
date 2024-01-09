@@ -1,4 +1,5 @@
 import React from "react";
+import CV from "../../assets/AnnaBrisland_CV.pdf";
 
 function Contact() {
   // Change background colour for home page
@@ -7,17 +8,24 @@ function Contact() {
   return (
     <div>
       <h1 className="title">CONTACT</h1>
-      <ul>
+      <ul className="contact-items">
         <li>
-          <a href="mailto:annabrisland@gmail.com">Email</a>
+          <a className="contact-item" href="mailto:annabrisland@gmail.com">
+            Email
+          </a>
         </li>
         <li>
-          <a href="https://github.com/annabrisland" target="_blank">
+          <a
+            className="contact-item"
+            href="https://github.com/annabrisland"
+            target="_blank"
+          >
             GitHub
           </a>
         </li>
         <li>
           <a
+            className="contact-item"
             href="https://www.linkedin.com/in/anna-brisland-2b5734232/"
             target="_blank"
           >
@@ -25,12 +33,12 @@ function Contact() {
           </a>
         </li>
         <li>
-          <a href="" target="_blank">
+          <a className="contact-item" href={CV} target="_blank">
             CV
           </a>
         </li>
       </ul>
-      <section>
+      <section className="contact-form">
         <h3>Got a question? Fire away</h3>
         <form>
           <label for="name">Name</label>
@@ -41,8 +49,8 @@ function Contact() {
             id="email-input"
             placeholder="johnsmith@email.com"
           ></input>
-          <input type="text" id="question" placeholder="Fire away..."></input>
-          <input type="submit" value="Contact Me"></input>
+          <textarea type="text" id="question" placeholder="Fire away..."></textarea>
+          <input  className="submit-btn" type="submit" value="Contact Me"></input>
         </form>
       </section>
     </div>
