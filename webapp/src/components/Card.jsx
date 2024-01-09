@@ -11,8 +11,8 @@ function Card(props) {
                 <h3 className="title">{project.title}</h3>
                 <div className="description">{project.desc}</div>
                 <div className="project-links">
-                    <button className="github-btn" href={project.github}>GitHub</button>
-                    <button className="view-btn" href={project.deployed}>View</button>
+                    <a className="github-btn" href={project.github} target="_blank">GitHub</a>
+                    <a className="view-btn" href={project.deployed} target="_blank">View</a>
                 </div>
             </div>
         </div>

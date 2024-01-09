@@ -1,0 +1,45 @@
+* {
+  /* border: red solid 2px; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #4901ff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: #250081;
+}
+
+.container {
+    margin: 45px 25px;
+}
+
+.nav-items {
+    text-align: end;
+}
+
+.nav-item {
+    margin-bottom: 15px;
+}
+
+.name-container {
+    margin-top: 100px;
+}
+
+.name {
+    color: white;
+    font-size: 5rem;
+    margin: 0px;
+}
