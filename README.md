@@ -4,7 +4,7 @@
 
 A portfolio built using Vite and React. This portfolio includes a list of projects, contact information, and a contact form.
 
-![Screenshot](./assets/screenshot.png)
+![Screenshot](./src/assets/screenshot.png)
 
 ## Usage
 
